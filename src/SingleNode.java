@@ -52,6 +52,6 @@ public class SingleNode<E> {
 
     public boolean isEmpty()
     {
-        return value!=null;
+        return value==null;
     }
 }
